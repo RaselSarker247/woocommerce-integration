@@ -2018,7 +2018,7 @@ SELECT SIDT.ITEM_ID,
        SIDT.QUANTITY_ON_HAND,
        SIDT.PURCHASE_DESCRIPTION,
        CASE WHEN SIDT.PRODUCT_IMAGE_NAME IS NOT NULL THEN
-       '<img  src="https://innovations-sa.com/ALL_APP_IMAGES/PRODUCT_IMAGES/LAM/'||SIDT.PRODUCT_IMAGE_NAME||';">'
+       '<img  src="https://your domain/'||SIDT.PRODUCT_IMAGE_NAME||';">'  --set your image directory
        ELSE 
         '<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
   <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="none" />
